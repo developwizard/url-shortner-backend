@@ -1,13 +1,13 @@
-package com.example.urlshortnerbackend;
+package com.example.urlshortenerbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UrlShortnerBackendApplication {
+public class urlShortenerBackendApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UrlShortnerBackendApplication.class, args);
+        SpringApplication.run(urlShortenerBackendApplication.class, args);
     }
 
 }

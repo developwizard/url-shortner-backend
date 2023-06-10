@@ -9,12 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>url-shortner-backend</artifactId>
+    <artifactId>${project.description}</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>url-shortner-backend</name>
-    <description>url-shortner-backend</description>
+    <name>${project.description}</name>
+    <description>${project.description}</description>
     <properties>
         <java.version>17</java.version>
+        <project.description>url-shortener-backend</project.description>
     </properties>
     <dependencies>
         <dependency>
